@@ -32,6 +32,11 @@ nnoremap tn gt
 nnoremap tc :q<CR>
 nnoremap to :tabf ./
 
+map <up> k
+map <down> j
+nnoremap j gj
+nnoremap k gk
+
 hi Comment ctermfg=lightgreen
 
 set virtualedit=all
