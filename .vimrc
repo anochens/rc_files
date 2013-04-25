@@ -1,10 +1,14 @@
 syntax on
+
+set iskeyword+=_
+
 set nocompatible
 set cinwords=if,def,for,while,class,do,else,switch,case
 set smartindent
 set tabstop=3
 set shiftwidth=3
 set shiftwidth=3
+set backspace=2
 set number
 set noexpandtab
 
@@ -39,7 +43,7 @@ nnoremap k gk
 
 hi Comment ctermfg=lightgreen
 
-set virtualedit=all
+et virtualedit=all
 autocmd FileType ruby set omnifunc=rubycomplete
 autocmd FileType perl set omnifunc=perlcomplete
 autocmd FileType c set omnifunc=ccomplete
