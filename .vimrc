@@ -43,7 +43,7 @@ nnoremap k gk
 
 hi Comment ctermfg=lightgreen
 
-et virtualedit=all
+set virtualedit=all
 autocmd FileType ruby set omnifunc=rubycomplete
 autocmd FileType perl set omnifunc=perlcomplete
 autocmd FileType c set omnifunc=ccomplete
