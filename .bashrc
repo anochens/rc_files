@@ -23,4 +23,4 @@ alias nocko="ssh anochenson@alannochenson.com"
 
  #modifications to existing commands
 alias ls="ls -h --color=always"
-alias rm="rm -i
+alias rm="rm -i"
