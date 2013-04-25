@@ -17,15 +17,10 @@ alias lsa="ls -a"
 alias lso="ls -o"
 alias m="make"
 alias vim="vim -p"
-alias andrew="ssh unix.andrew.cmu.edu"
-alias shark="ssh shark.ics.cs.cmu.edu"
 alias whereami="uname -n"
-alias mako="ssh makoshark.ics.cs.cmu.edu"
-alias nocko="ssh anochenson@184.168.37.1"
-
+alias nocko="ssh anochenson@alannochenson.com"
 
 
  #modifications to existing commands
 alias ls="ls -h --color=always"
-alias rm="rm -i"      
-alias gccf="gcc -ansi -pedantic -W -Wall -Wextra -O2"
+alias rm="rm -i
