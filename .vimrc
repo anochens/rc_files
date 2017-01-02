@@ -3,14 +3,14 @@ syntax on
 set iskeyword+=_
 
 set nocompatible
-set cinwords=if,def,for,while,class,do,else,switch,case
+set cinwords=if,def,for,while,class,do,else,switch,case,foreach
 set smartindent
 set tabstop=3
 set shiftwidth=3
-set shiftwidth=3
+set softtabstop=3
 set backspace=2
 set number
-set noexpandtab
+set expandtab
 
 set history=1000
 set undolevels=1000
