@@ -64,3 +64,6 @@ inoremap <Tab> <C-R>=Tab_Or_Complete()<CR>
 
 highlight Pmenu ctermbg=LightGray ctermfg=Black gui=bold
 highlight PmenuSel ctermfg=DarkBlue ctermbg=DarkRed
+
+
+execute pathogen#infect()
